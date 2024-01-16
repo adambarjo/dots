@@ -1,0 +1,76 @@
+return {
+  "nvim-treesitter/nvim-treesitter",
+  version = false,
+  build = ":TSUpdate",
+  event = "BufEnter *.*",
+  init = function(plugin)
+    require("lazy.core.loader").add_to_rtp(plugin)
+    require("nvim-treesitter.query_predicates")
+  end,
+  dependencies = {
+    { "nvim-treesitter/nvim-treesitter-textobjects" },
+    {
+      "nvim-treesitter/nvim-treesitter-context",
+      opts = {
+        enable = true,
+        line_numbers = true,
+        max_lines = 1,
+        trim_scope = "inner",
+      },
+    },
+  },
+  opts = {
+    highlight = {
+      enable = true,
+      disable = function(_, bufnr) -- Disable in files with more than 5K lines
+        return vim.api.nvim_buf_line_count(bufnr) > 5000
+      end,
+    },
+    indent = { enable = true },
+    ensure_installed = { "c", "lua", "vim", "vimdoc", "query" },
+    auto_install = true,
+    textobjects = {
+      select = {
+        enable = true,
+        keymaps = {
+          ["af"] = "@function.outer",
+          ["if"] = "@function.inner",
+        },
+      },
+      move = {
+        enable = true,
+        set_jumps = true,
+        goto_next_start = {
+          ["]f"] = "@function.outer",
+        },
+        goto_next_end = {
+          ["]F"] = "@function.outer",
+        },
+        goto_previous_start = {
+          ["[f"] = "@function.outer",
+        },
+        goto_previous_end = {
+          ["[F"] = "@function.outer",
+        },
+      },
+    },
+  },
+  config = function(_, opts)
+    if type(opts.ensure_installed) == "table" then
+      local added = {}
+      opts.ensure_installed = vim.tbl_filter(function(lang)
+        if added[lang] then
+          return false
+        end
+        added[lang] = true
+        return true
+      end, opts.ensure_installed)
+    end
+
+    map("n", "[c", function()
+      require("treesitter-context").go_to_context(vim.v.count1)
+    end, { silent = true })
+
+    require("nvim-treesitter.configs").setup(opts)
+  end,
+}

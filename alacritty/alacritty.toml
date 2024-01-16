@@ -1,0 +1,29 @@
+[colors.primary]
+background = "#13131f"
+
+[font]
+size = 15
+
+[font.bold]
+style = "Bold"
+
+[font.normal]
+family = "RobotoMono Nerd Font"
+style = "Medium"
+
+[font.offset]
+x = -1
+y = 0
+
+[mouse]
+hide_when_typing = true
+
+[shell]
+program = "/bin/zsh"
+
+[window]
+decorations = "none"
+
+[window.padding]
+x = 30
+y = 30
