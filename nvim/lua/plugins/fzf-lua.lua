@@ -24,6 +24,13 @@ return {
     { "<leader>sw", "<Cmd>FzfLua grep_cword<CR>", desc = "Grep word under cursor" },
   },
   config = function()
-    require("fzf-lua").setup({ "max-perf" })
+    require("fzf-lua").setup({
+      "max-perf",
+      winopts = {
+        border = "none",
+        fullscreen = true,
+        preview = { hidden = "hidden" },
+      },
+    })
   end,
 }

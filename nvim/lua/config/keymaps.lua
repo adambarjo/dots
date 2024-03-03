@@ -25,7 +25,7 @@ map(
     "<Cmd>lua vim.fn.cursor(vim.fn.getreg('o'), vim.fn.getreg('n'))<CR>",
     "<Cmd>tabe<CR>",
     "<Cmd>exe 'e +' .. getreg('p') .. ' ' .. getreg('q')<CR>",
-    "<Cmd>lua vim.fn.cursor(0, vim.fn.getreg('n') - #vim.fn.getreg('n') - 1)<CR>",
+    "<Cmd>lua vim.fn.cursor(0, vim.fn.getreg('n') - #vim.fn.getreg('p') - 1)<CR>",
     "zz",
   }),
   "Ripgrep go to file by line number"
@@ -83,4 +83,11 @@ else
   map("n", "gx", ":silent !start <C-r><C-a><CR>", "Go to URL under cursor")
 end
 
-map("i", "<C-l>", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in urna et nibh blandit ullamcorper quis a libero. Nunc nisi risus, ornare et ipsum a, interdum blandit quam. Aliquam iaculis ultricies purus nec semper. Sed porta nibh eget magna vehicula, quis facilisis quam porta. Nunc vel fermentum sapien. Phasellus quis ante semper, fermentum nibh sit amet, mollis diam. Quisque in augue mi. Vestibulum placerat at mauris eget aliquet.")
+-- Insert Lorem Ipsum text at cursor
+map(
+  "i",
+  "<C-l>",
+  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in urna et nibh blandit ullamcorper quis a libero. Nunc nisi risus, ornare et ipsum a, interdum blandit quam. Aliquam iaculis ultricies purus nec semper. Sed porta nibh eget magna vehicula, quis facilisis quam porta. Nunc vel fermentum sapien. Phasellus quis ante semper, fermentum nibh sit amet, mollis diam. Quisque in augue mi. Vestibulum placerat at mauris eget aliquet."
+)
+
+-- map("t", "<", "<M-a><M-q>", "Add all items to quickfix")

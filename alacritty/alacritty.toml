@@ -1,8 +1,11 @@
-[colors.primary]
-background = "#13131f"
+# import = [ "~/.config/alacritty/catppuccin-mocha.toml" ]
+import = [ "~/.config/alacritty/rose-pine.toml" ]
+
+# [colors.primary]
+# background = "#13131f"
 
 [font]
-size = 15
+size = 14
 
 [font.bold]
 style = "Bold"
@@ -13,7 +16,7 @@ style = "Medium"
 
 [font.offset]
 x = -1
-y = 0
+y = 4
 
 [mouse]
 hide_when_typing = true

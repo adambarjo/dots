@@ -2,7 +2,7 @@ return {
   {
     "catppuccin/nvim",
     name = "catppuccin",
-    priority = 1000,
+    event = "VeryLazy",
     config = function()
       require("catppuccin").setup({
         term_colors = true,
@@ -12,7 +12,6 @@ return {
           },
         },
       })
-      vim.cmd.colorscheme("catppuccin")
     end,
   },
   {
@@ -29,5 +28,13 @@ return {
     "projekt0n/github-nvim-theme",
     name = "github",
     event = "VeryLazy",
+  },
+  {
+    "rose-pine/neovim",
+    name = "rose-pine",
+    priority = 1000,
+    config = function()
+      vim.cmd.colorscheme("rose-pine")
+    end,
   },
 }
