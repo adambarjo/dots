@@ -89,5 +89,3 @@ map(
   "<C-l>",
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in urna et nibh blandit ullamcorper quis a libero. Nunc nisi risus, ornare et ipsum a, interdum blandit quam. Aliquam iaculis ultricies purus nec semper. Sed porta nibh eget magna vehicula, quis facilisis quam porta. Nunc vel fermentum sapien. Phasellus quis ante semper, fermentum nibh sit amet, mollis diam. Quisque in augue mi. Vestibulum placerat at mauris eget aliquet."
 )
-
--- map("t", "<", "<M-a><M-q>", "Add all items to quickfix")

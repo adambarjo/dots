@@ -20,9 +20,6 @@ vim.opt.ignorecase = true
 vim.opt.list = true
 vim.opt.listchars:append({ tab = "  ", nbsp = "•" })
 
--- Fill chars
-vim.opt.fillchars:append({ diff = "╱" })
-
 -- Tab width
 vim.opt.tabstop = 2
 vim.opt.shiftwidth = 0

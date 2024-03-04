@@ -1,14 +1,13 @@
-# import = [ "~/.config/alacritty/catppuccin-mocha.toml" ]
 import = [ "~/.config/alacritty/rose-pine.toml" ]
-
-# [colors.primary]
-# background = "#13131f"
 
 [font]
 size = 14
 
 [font.bold]
 style = "Bold"
+
+[font.italic]
+style = "Medium Italic"
 
 [font.normal]
 family = "RobotoMono Nerd Font"
