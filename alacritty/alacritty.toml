@@ -1,7 +1,7 @@
 import = [ "~/.config/alacritty/rose-pine.toml" ]
 
 [font]
-size = 14
+size = 16
 
 [font.bold]
 style = "Bold"

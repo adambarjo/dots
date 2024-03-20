@@ -8,40 +8,34 @@ map("n", "<C-l>", "<C-w>l", "Navigate to window right")
 map("n", "<leader>l", "<Cmd>normal! <C-l><CR>", "Default action of <C-l>")
 
 -- Window resizing
-map("n", "<C-S-k>", "<Cmd>resize -2<CR>", "Resize window up")
-map("n", "<C-S-j>", "<Cmd>resize +2<CR>", "Resize window down")
-map("n", "<C-S-h>", "<Cmd>vertical resize -2<CR>", "Resize window left")
-map("n", "<C-S-l>", "<Cmd>vertical resize +2<CR>", "Resize window right")
+map("n", "<C-Up>", "<Cmd>resize -2<CR>", "Resize window up")
+map("n", "<C-Down>", "<Cmd>resize +2<CR>", "Resize window down")
+map("n", "<C-Left>", "<Cmd>vertical resize -2<CR>", "Resize window left")
+map("n", "<C-Right>", "<Cmd>vertical resize +2<CR>", "Resize window right")
 
 -- Ripgrep
-map(
-  "n",
-  "<leader>r",
-  table.concat({
-    "<Cmd>let @n=col('.') | let @o=line('.')<CR>",
-    '0"pyiw',
-    "vipo<Esc>",
-    '"qyy',
-    "<Cmd>lua vim.fn.cursor(vim.fn.getreg('o'), vim.fn.getreg('n'))<CR>",
-    "<Cmd>tabe<CR>",
-    "<Cmd>exe 'e +' .. getreg('p') .. ' ' .. getreg('q')<CR>",
-    "<Cmd>lua vim.fn.cursor(0, vim.fn.getreg('n') - #vim.fn.getreg('p') - 1)<CR>",
-    "zz",
-  }),
-  "Ripgrep go to file by line number"
-)
+map("n", "<leader>r", function()
+  local start_line, start_col = vim.fn.line("."), vim.fn.col(".")
+
+  vim.cmd.normal('0"nyiw')
+  local target_line = vim.fn.getreg("n")
+
+  vim.cmd.normal("vipo!")
+  vim.cmd.normal('"ny$')
+  local target_file = vim.fn.getreg("n")
+
+  vim.fn.cursor(start_line, start_col)
+  vim.cmd.tabe(target_file)
+  vim.fn.cursor(target_line, start_col - #target_line - 1)
+end, "Ripgrep go to file by line number")
 
 -- Git show
-map(
-  "n",
-  "<leader>gs",
-  table.concat({
-    '"nyiw',
-    "<Cmd>tabe<CR>",
-    "<Cmd>exe 'term git show ' .. getreg('n')<CR>",
-  }),
-  "Open new tab and run `git show <ref>`"
-)
+map("n", "<leader>gs", function()
+  vim.cmd.normal('"nyiw')
+  local hash = vim.fn.getreg("n")
+  vim.cmd.tabe()
+  vim.cmd.term(string.format("git show %s", hash))
+end, "Open new tab and run `git show <ref>`")
 
 -- Tabs
 map("n", "<C-t>", "<Cmd>tabe<CR>", "New tab")

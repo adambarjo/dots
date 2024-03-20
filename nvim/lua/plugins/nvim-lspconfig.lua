@@ -49,7 +49,10 @@ return {
         map("n", "<F2>", vim.lsp.buf.rename, "Rename symbol", ev)
         map("n", "K", vim.lsp.buf.hover, "Hover", ev)
         map("n", "gD", vim.lsp.buf.declaration, "Go to declaration", ev)
-        map("n", "gd", vim.lsp.buf.definition, "Definitions", ev)
+        map("n", "gd", "<Cmd>Trouble lsp_definitions<CR>", "Definitions", ev)
+        map("n", "g<C-d>", function()
+          newtab("Trouble lsp_definitions")
+        end, "Definitions (in new tab)", ev)
         map("n", "gi", "<Cmd>Trouble lsp_implementations<CR>", "Implementations", ev)
         map("n", "gr", "<Cmd>Trouble lsp_references<CR>", "References", ev)
         map("n", "g*", vim.lsp.buf.type_definition, "Go to type definiton", ev)
@@ -57,5 +60,7 @@ return {
         map({ "n", "v" }, "<F4>", vim.lsp.buf.code_action, "Code action", ev)
       end,
     })
+
+    require("lspconfig.ui.windows").default_options.border = "rounded"
   end,
 }

@@ -3,7 +3,7 @@ return {
   cmd = "ConformInfo",
   keys = {
     {
-      mode = { "n", "v" },
+      mode = { "n", "i", "v" },
       "<F3>",
       function()
         require("conform").format({ lsp_fallback = true })

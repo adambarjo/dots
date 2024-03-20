@@ -13,6 +13,7 @@ return {
     { "<leader>sb", "<Cmd>FzfLua buffers<CR>", desc = "Search buffers" },
     { "<leader>sc", "<Cmd>FzfLua colorschemes<CR>", desc = "Colorschemes" },
     { "<leader>sf", "<Cmd>FzfLua filetypes<CR>", desc = "Filetypes" },
+    { "<leader>sgs", "<Cmd>FzfLua git_status<CR>", desc = "Git status" },
     { "<leader>sh", "<Cmd>FzfLua help_tags<CR>", desc = "Help tags" },
     { "<leader>sj", "<Cmd>FzfLua jumps<CR>", desc = "Jumplist" },
     { "<leader>sk", "<Cmd>FzfLua keymaps<CR>", desc = "Keymaps" },
