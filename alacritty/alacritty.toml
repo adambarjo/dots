@@ -1,0 +1,39 @@
+# import = [ "~/.config/alacritty/rose-pine.toml" ]
+# import = [ "~/.config/alacritty/kanagawa.toml" ]
+import = [ "~/.config/alacritty/github_dark_default.toml" ]
+
+# [colors.primary]
+# background = "#000000"
+# background = "#0a0912"
+# background = "#140c18"
+
+[font]
+size = 16
+
+[font.bold]
+style = "Bold"
+
+[font.italic]
+style = "Medium Italic"
+
+[font.normal]
+family = "RobotoMono Nerd Font"
+style = "Medium"
+
+[font.offset]
+x = -1
+y = 4
+
+[mouse]
+hide_when_typing = true
+
+[shell]
+program = "/bin/zsh"
+
+[window]
+decorations = "none"
+# opacity = 0.95
+
+[window.padding]
+x = 30
+y = 30
