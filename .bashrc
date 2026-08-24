@@ -33,8 +33,8 @@ gmm() {
 	git push origin HEAD
 }
 
-toggle_caps_esc() {
-	[[ "$(gsettings get org.gnome.desktop.input-sources xkb-options)" == *"caps:swapescape"* ]] &&
-		gsettings reset org.gnome.desktop.input-sources xkb-options ||
-		gsettings set org.gnome.desktop.input-sources xkb-options "['caps:swapescape']"
+toggle_swapescape() {
+	gsettings set org.gnome.desktop.input-sources xkb-options "['$(
+		gsettings get org.gnome.desktop.input-sources xkb-options | grep -q 'caps:swapescape' || echo 'caps:swapescape'
+	)']"
 }
