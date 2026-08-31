@@ -14,6 +14,8 @@
 !opencode/themes
 !opencode/themes/**
 !screen.png
+!razer/
+!razer/**
 !tmux
 !tmux/**
 !vim
