@@ -347,11 +347,12 @@ highlight javaStorageClass guifg=#ffbbad
 " JavaScript
 
 highlight javaScript guifg=#ffede0
-highlight javaScriptBraces guifg=#ffede0
+highlight javaScriptBraces guifg=#adadcc
 highlight javaScriptMember guifg=#ffbbad
 highlight javaScriptMessage guifg=#ffede0
 highlight javaScriptOperator guifg=#b3a0e8
 highlight javaScriptStatement guifg=#f29d68
+highlight javascriptParens guifg=#adadcc
 
 
 " Julia

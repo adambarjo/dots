@@ -13,7 +13,7 @@ vim.lsp.enable({
   "rust_analyzer",
   "tailwindcss",
   "terraformls",
-  "tsgo",
+  "tsc",
 })
 
 vim.lsp.config["cssls"] = {

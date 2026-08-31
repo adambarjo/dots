@@ -346,11 +346,12 @@ vim.api.nvim_set_hl(0, "javaStorageClass", { fg = vim.g.AlbaProperty })
 -- JavaScript
 
 vim.api.nvim_set_hl(0, "javaScript", { fg = vim.g.AlbaVariable })
-vim.api.nvim_set_hl(0, "javaScriptBraces", { fg = vim.g.AlbaVariable })
+vim.api.nvim_set_hl(0, "javaScriptBraces", { fg = vim.g.AlbaPunctuation })
 vim.api.nvim_set_hl(0, "javaScriptMember", { fg = vim.g.AlbaProperty })
 vim.api.nvim_set_hl(0, "javaScriptMessage", { fg = vim.g.AlbaVariable })
 vim.api.nvim_set_hl(0, "javaScriptOperator", { fg = vim.g.AlbaMisc })
 vim.api.nvim_set_hl(0, "javaScriptStatement", { fg = vim.g.AlbaKeyword })
+vim.api.nvim_set_hl(0, "javascriptParens", { fg = vim.g.AlbaPunctuation })
 
 
 -- Julia

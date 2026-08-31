@@ -36,7 +36,7 @@ vim.api.nvim_create_user_command("Format", function()
     yaml = { "prettier", "--stdin-filepath", path },
     bash = { "shfmt" },
     sh = { "shfmt" },
-    xml = { "xmlformat ", path },
+    xml = { "xmlformat", path },
     zsh = { "shfmt" },
   })[ft]
 
@@ -46,7 +46,7 @@ vim.api.nvim_create_user_command("Format", function()
       vim.notify(table.concat(result, "\n"), vim.log.levels.ERROR)
       return
     end
-    vim.fn.setline(1, result)
+    vim.api.nvim_buf_set_lines(0, 0, -1, false, result)
   else
     pcall(vim.lsp.buf.format)
   end
