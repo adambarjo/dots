@@ -1,11 +1,11 @@
 background = #161628
-foreground = #ffeadb
+foreground = #ffede0
 
 palette = 0=#2d2d4c
-palette = 1=#e88378
+palette = 1=#e88a7f
 palette = 2=#c5d89c
-palette = 3=#ffcd7c
-palette = 4=#f49a66
+palette = 3=#ffcc75
+palette = 4=#f29d68
 palette = 5=#f7bb96
 palette = 6=#f9d9c5
 palette = 7=#ffffff

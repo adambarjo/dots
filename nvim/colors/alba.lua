@@ -12,14 +12,14 @@ vim.g.AlbaGrey6 = "#8e8eb2"
 vim.g.AlbaGrey7 = "#adadcc"
 vim.g.AlbaGrey8 = "#cecee5"
 
-vim.g.AlbaCoral = "#ffb0a3"
-vim.g.AlbaDusk = "#ae99e8"
-vim.g.AlbaHaze = "#ffeadb"
-vim.g.AlbaLuz = "#ffcd7c"
-vim.g.AlbaOrange = "#f49a66"
-vim.g.AlbaPeach = "#ffcca3"
-vim.g.AlbaPink = "#f791bd"
-vim.g.AlbaRouge = "#e88378"
+vim.g.AlbaCoral = "#ffbbad"
+vim.g.AlbaDusk = "#b3a0e8"
+vim.g.AlbaHaze = "#ffede0"
+vim.g.AlbaLuz = "#ffcc75"
+vim.g.AlbaOrange = "#f29d68"
+vim.g.AlbaPeach = "#ffd4b2"
+vim.g.AlbaPink = "#f29bc5"
+vim.g.AlbaRouge = "#e88a7f"
 
 vim.g.AlbaBlack = "#161628"
 vim.g.AlbaEditor = vim.g.AlbaTransparent and "none" or vim.g.AlbaBlack
@@ -346,12 +346,11 @@ vim.api.nvim_set_hl(0, "javaStorageClass", { fg = vim.g.AlbaProperty })
 -- JavaScript
 
 vim.api.nvim_set_hl(0, "javaScript", { fg = vim.g.AlbaVariable })
-vim.api.nvim_set_hl(0, "javaScriptBraces", { fg = vim.g.AlbaPunctuation })
+vim.api.nvim_set_hl(0, "javaScriptBraces", { fg = vim.g.AlbaVariable })
 vim.api.nvim_set_hl(0, "javaScriptMember", { fg = vim.g.AlbaProperty })
 vim.api.nvim_set_hl(0, "javaScriptMessage", { fg = vim.g.AlbaVariable })
 vim.api.nvim_set_hl(0, "javaScriptOperator", { fg = vim.g.AlbaMisc })
 vim.api.nvim_set_hl(0, "javaScriptStatement", { fg = vim.g.AlbaKeyword })
-vim.api.nvim_set_hl(0, "javascriptParens", { fg = vim.g.AlbaPunctuation })
 
 
 -- Julia

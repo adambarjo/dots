@@ -12,14 +12,14 @@ let g:AlbaGrey6 = "#8e8eb2"
 let g:AlbaGrey7 = "#adadcc"
 let g:AlbaGrey8 = "#cecee5"
 
-let g:AlbaCoral = "#ffb0a3"
-let g:AlbaDusk = "#ae99e8"
-let g:AlbaHaze = "#ffeadb"
-let g:AlbaLuz = "#ffcd7c"
-let g:AlbaOrange = "#f49a66"
-let g:AlbaPeach = "#ffcca3"
-let g:AlbaPink = "#f791bd"
-let g:AlbaRouge = "#e88378"
+let g:AlbaCoral = "#ffbbad"
+let g:AlbaDusk = "#b3a0e8"
+let g:AlbaHaze = "#ffede0"
+let g:AlbaLuz = "#ffcc75"
+let g:AlbaOrange = "#f29d68"
+let g:AlbaPeach = "#ffd4b2"
+let g:AlbaPink = "#f29bc5"
+let g:AlbaRouge = "#e88a7f"
 
 let g:AlbaBlack = "#161628"
 let g:AlbaEditor = "none"
@@ -32,85 +32,85 @@ let g:AlbaWhite = "#ffffff"
 highlight CmpItemAbbrMatch guifg=#ffffff
 highlight ColorColumn guibg=#1d1d35
 highlight Comment guifg=#8e8eb2 gui=italic
-highlight CurSearch guifg=#161628 guibg=#ffcd7c
+highlight CurSearch guifg=#161628 guibg=#ffcc75
 highlight CursorColumn guibg=none
 highlight CursorLine guibg=#1d1d35
 highlight CursorLineFold guifg=#8e8eb2
 highlight CursorLineNr guifg=#ffffff gui=bold
 highlight CursorLineSign guifg=#8e8eb2
-highlight DiagnosticError guifg=#e88378
-highlight DiagnosticHint guifg=#f791bd
-highlight DiagnosticInfo guifg=#f49a66
-highlight DiagnosticUnderlineError guisp=#e88378 gui=undercurl
-highlight DiagnosticUnderlineHint guisp=#f791bd gui=undercurl
-highlight DiagnosticUnderlineInfo guisp=#f49a66 gui=undercurl
-highlight DiagnosticUnderlineWarn guisp=#ffcca3 gui=undercurl
-highlight DiagnosticWarn guifg=#ffcca3
+highlight DiagnosticError guifg=#e88a7f
+highlight DiagnosticHint guifg=#f29bc5
+highlight DiagnosticInfo guifg=#f29d68
+highlight DiagnosticUnderlineError guisp=#e88a7f gui=undercurl
+highlight DiagnosticUnderlineHint guisp=#f29bc5 gui=undercurl
+highlight DiagnosticUnderlineInfo guisp=#f29d68 gui=undercurl
+highlight DiagnosticUnderlineWarn guisp=#ffd4b2 gui=undercurl
+highlight DiagnosticWarn guifg=#ffd4b2
 highlight DiffAdd guibg=#2d2d4c
 highlight DiffChange guibg=#2d2d4c
 highlight DiffDelete guifg=#2d2d4c
-highlight DiffFile guifg=#ffcca3
+highlight DiffFile guifg=#ffd4b2
 highlight DiffText guibg=#59597f
-highlight Directory guifg=#f49a66
+highlight Directory guifg=#f29d68
 highlight EndOfBuffer guifg=#424266
-highlight Error guifg=#e88378 guibg=none
-highlight ErrorMsg guifg=#e88378
+highlight Error guifg=#e88a7f guibg=none
+highlight ErrorMsg guifg=#e88a7f
 highlight FloatBorder guifg=#2d2d4c guibg=none
 highlight FloatTitle guifg=#cecee5 guibg=none
 highlight FoldColumn guifg=#8e8eb2 guibg=none
 highlight Folded guifg=#adadcc guibg=#1d1d35
 highlight GitSignsAdd guifg=#c5d89c
 highlight GitSignsChange guifg=#727299
-highlight GitSignsDelete guifg=#e88378
-highlight IncSearch guifg=#161628 guibg=#ffcd7c
+highlight GitSignsDelete guifg=#e88a7f
+highlight IncSearch guifg=#161628 guibg=#ffcc75
 highlight LineNr guifg=#424266
-highlight MatchParen guibg=#424266 guifg=#ffcd7c
-highlight ModeMsg guifg=#ffcca3
-highlight MoreMsg guifg=#f791bd
-highlight MsgArea guifg=#ffcca3
+highlight MatchParen guibg=#424266 guifg=#ffcc75
+highlight ModeMsg guifg=#ffd4b2
+highlight MoreMsg guifg=#f29bc5
+highlight MsgArea guifg=#ffd4b2
 highlight NonText guifg=#59597f gui=italic
 if exists("g:AlbaTransparent") && g:AlbaTransparent
-	highlight Normal guifg=#ffeadb guibg=none
+	highlight Normal guifg=#ffede0 guibg=none
 else
-	highlight Normal guifg=#ffeadb guibg=#161628
+	highlight Normal guifg=#ffede0 guibg=#161628
 endif
-highlight NormalFloat guifg=#ffeadb guibg=none
+highlight NormalFloat guifg=#ffede0 guibg=none
 highlight Pmenu guifg=#8e8eb2 guibg=#1d1d35
 highlight PmenuMatch guifg=#ffffff guibg=#2d2d4c
 highlight PmenuSbar guibg=#1d1d35
 highlight PmenuSel guifg=#cecee5 guibg=#2d2d4c
 highlight PmenuThumb guibg=#424266
-highlight Popup guifg=#ffeadb guibg=#1d1d35
+highlight Popup guifg=#ffede0 guibg=#1d1d35
 highlight QuickFixLine guibg=#2d2d4c
-highlight Search guifg=#ffeadb guibg=#424266
+highlight Search guifg=#ffede0 guibg=#424266
 highlight SignColumn guibg=none
-highlight SpecialKey guifg=#f49a66
-highlight SpellBad guifg=#e88378 gui=undercurl
-highlight SpellCap guifg=#ffcca3 gui=undercurl
-highlight SpellLocal guifg=#f791bd gui=undercurl
-highlight SpellRare guifg=#ffeadb gui=undercurl
+highlight SpecialKey guifg=#f29d68
+highlight SpellBad guifg=#e88a7f gui=undercurl
+highlight SpellCap guifg=#ffd4b2 gui=undercurl
+highlight SpellLocal guifg=#f29bc5 gui=undercurl
+highlight SpellRare guifg=#ffede0 gui=undercurl
 highlight StatusLine guifg=#cecee5 guibg=#1d1d35
 highlight StatusLineNC guifg=#8e8eb2 guibg=#1d1d35
 highlight StatusLineTerm guifg=#cecee5 guibg=#2d2d4c
 highlight StatusLineTermNC guifg=#8e8eb2 guibg=#2d2d4c
-highlight StderrMsg guifg=#f791bd
-highlight StdoutMsg guifg=#ffeadb
-highlight Substitute guifg=#161628 guibg=#ffcd7c
+highlight StderrMsg guifg=#f29bc5
+highlight StdoutMsg guifg=#ffede0
+highlight Substitute guifg=#161628 guibg=#ffcc75
 highlight TabLine guifg=#727299 guibg=#1d1d35
 highlight TabLineFill guibg=#1d1d35 cterm=none
 highlight TabLineSel guifg=#cecee5 guibg=#2d2d4c
-highlight Title guifg=#f49a66
+highlight Title guifg=#f29d68
 highlight Todo guifg=#161628 guibg=#8e8eb2 gui=italic
-highlight Underlined guifg=#ffeadb gui=underline
+highlight Underlined guifg=#ffede0 gui=underline
 highlight VertSplit guifg=#8e8eb2 guibg=none
 highlight Visual guifg=NONE guibg=#2d2d4c
-highlight WarningMsg guifg=#f49a66
+highlight WarningMsg guifg=#f29d68
 highlight WinBar guifg=#cecee5 guibg=#1d1d35
 highlight WinBarNC guifg=#8e8eb2 guibg=#1d1d35
 highlight WinSeparator guifg=#2d2d4c guibg=none
 highlight diffAdded guifg=#c5d89c
-highlight diffChanged guifg=#ffcca3
-highlight diffRemoved guifg=#e88378
+highlight diffChanged guifg=#ffd4b2
+highlight diffRemoved guifg=#e88a7f
 highlight qfLineNr guifg=#727299
 
 " Syntax
@@ -126,25 +126,25 @@ let g:AlbaString = g:AlbaPeach
 let g:AlbaType = g:AlbaPink
 let g:AlbaVariable = g:AlbaHaze
 
-highlight Constant guifg=#ffcd7c
+highlight Constant guifg=#ffcc75
 highlight Delimiter guifg=#adadcc
-highlight Float guifg=#ffcd7c
-highlight Function guifg=#e88378
-highlight Identifier guifg=#ffb0a3
-highlight Keyword guifg=#f49a66
+highlight Float guifg=#ffcc75
+highlight Function guifg=#e88a7f
+highlight Identifier guifg=#ffbbad
+highlight Keyword guifg=#f29d68
 highlight Operator guifg=#adadcc
-highlight PreProc guifg=#ffb0a3
-highlight Question guifg=#ffcca3
-highlight Quote guifg=#ffcca3
-highlight Special guifg=#ae99e8
-highlight Statement guifg=#f49a66
-highlight String guifg=#ffcca3
-highlight Type guifg=#f791bd
-highlight htmlTagName guifg=#ae99e8
+highlight PreProc guifg=#ffbbad
+highlight Question guifg=#ffd4b2
+highlight Quote guifg=#ffd4b2
+highlight Special guifg=#b3a0e8
+highlight Statement guifg=#f29d68
+highlight String guifg=#ffd4b2
+highlight Type guifg=#f29bc5
+highlight htmlTagName guifg=#b3a0e8
 
 " netrw
 
-highlight netrwClassify guifg=#ffb0a3
+highlight netrwClassify guifg=#ffbbad
 
 
 " 
@@ -155,213 +155,212 @@ highlight netrwClassify guifg=#ffb0a3
 " Ada
 
 highlight adaAssignment guifg=#adadcc
-highlight adaAttribute guifg=#ffb0a3
-highlight adaBegin guifg=#f49a66
-highlight adaInc guifg=#ffb0a3
-highlight adaOperator guifg=#ae99e8
-highlight adaSpecial guifg=#ffeadb
-highlight adaStatement guifg=#e88378
-highlight adaTypedef guifg=#f49a66
+highlight adaAttribute guifg=#ffbbad
+highlight adaBegin guifg=#f29d68
+highlight adaInc guifg=#ffbbad
+highlight adaOperator guifg=#b3a0e8
+highlight adaSpecial guifg=#ffede0
+highlight adaStatement guifg=#e88a7f
+highlight adaTypedef guifg=#f29d68
 
 
 " Awk
 
-highlight awkArrayElement guifg=#ffcd7c
-highlight awkBrktRegExp guifg=#ffcd7c
-highlight awkComma guifg=#ffeadb
-highlight awkExpression guifg=#ae99e8
-highlight awkOperator guifg=#ae99e8
-highlight awkPatterns guifg=#e88378
-highlight awkSearch guifg=#ffb0a3
-highlight awkSemicolon guifg=#ffeadb
-highlight awkVariables guifg=#ffb0a3
+highlight awkArrayElement guifg=#ffcc75
+highlight awkBrktRegExp guifg=#ffcc75
+highlight awkComma guifg=#ffede0
+highlight awkExpression guifg=#b3a0e8
+highlight awkOperator guifg=#b3a0e8
+highlight awkPatterns guifg=#e88a7f
+highlight awkSearch guifg=#ffbbad
+highlight awkSemicolon guifg=#ffede0
+highlight awkVariables guifg=#ffbbad
 
 
 " C
 
-highlight cCharacter guifg=#ae99e8
-highlight cOperator guifg=#e88378
-highlight cStorageClass guifg=#f49a66
-highlight cStructure guifg=#f49a66
-highlight cTypedef guifg=#ae99e8
+highlight cCharacter guifg=#b3a0e8
+highlight cOperator guifg=#e88a7f
+highlight cStorageClass guifg=#f29d68
+highlight cStructure guifg=#f29d68
+highlight cTypedef guifg=#b3a0e8
 
 
 " Clojure
 
 highlight clojureParen guifg=#adadcc
-highlight clojureDefine guifg=#f49a66
+highlight clojureDefine guifg=#f29d68
 
 
 " C++
 
-highlight cppRawStringDelimiter guifg=#ffcd7c
-highlight cppStorageClass guifg=#f49a66
-highlight cppStructure guifg=#f49a66
+highlight cppRawStringDelimiter guifg=#ffcc75
+highlight cppStorageClass guifg=#f29d68
+highlight cppStructure guifg=#f29d68
 
 
 " CSharp
 
-highlight csAsyncOperator guifg=#ae99e8
-highlight csIsType guifg=#ae99e8
-highlight csNew guifg=#ae99e8
-highlight csNewType guifg=#f791bd
-highlight csOpSymbols guifg=#ae99e8
+highlight csAsyncOperator guifg=#b3a0e8
+highlight csIsType guifg=#b3a0e8
+highlight csNew guifg=#b3a0e8
+highlight csNewType guifg=#f29bc5
+highlight csOpSymbols guifg=#b3a0e8
 
 
 " CSS
 
-highlight cssAtKeyword guifg=#ae99e8
-highlight cssAtRule guifg=#e88378
-highlight cssAttrComma guifg=#ffeadb
-highlight cssAttributeSelector guifg=#f791bd
-highlight cssBraces guifg=#ffeadb
-highlight cssClassName guifg=#ae99e8
-highlight cssClassNameDot guifg=#ae99e8
-highlight cssCustomProp guifg=#ffeadb
-highlight cssFunction guifg=#e88378
-highlight cssPseudoClass guifg=#f791bd
-highlight cssPseudoClassId guifg=#f791bd
-highlight cssSelectorOp guifg=#ffeadb
-highlight cssUIProp guifg=#ffb0a3
+highlight cssAtKeyword guifg=#b3a0e8
+highlight cssAtRule guifg=#e88a7f
+highlight cssAttrComma guifg=#ffede0
+highlight cssAttributeSelector guifg=#f29bc5
+highlight cssBraces guifg=#ffede0
+highlight cssClassName guifg=#b3a0e8
+highlight cssClassNameDot guifg=#b3a0e8
+highlight cssCustomProp guifg=#ffede0
+highlight cssFunction guifg=#e88a7f
+highlight cssPseudoClass guifg=#f29bc5
+highlight cssPseudoClassId guifg=#f29bc5
+highlight cssSelectorOp guifg=#ffede0
+highlight cssUIProp guifg=#ffbbad
 
 " CSS props
 
-highlight cssAnimationProp guifg=#ffb0a3
-highlight cssAuralProp guifg=#ffb0a3
-highlight cssBackgroundProp guifg=#ffb0a3
-highlight cssBorderProp guifg=#ffb0a3
-highlight cssBoxProp guifg=#ffb0a3
-highlight cssCascadeProp guifg=#ffb0a3
-highlight cssColorProp guifg=#ffb0a3
-highlight cssContentForPagedMediaProp guifg=#ffb0a3
-highlight cssDimensionProp guifg=#ffb0a3
-highlight cssFlexibleBoxProp guifg=#ffb0a3
-highlight cssFontDescriptorProp guifg=#ffb0a3
-highlight cssFontProp guifg=#ffb0a3
-highlight cssGeneratedContentProp guifg=#ffb0a3
-highlight cssGridProp guifg=#ffb0a3
-highlight cssHyerlinkProp guifg=#ffb0a3
-highlight cssIEUIProp guifg=#ffb0a3
-highlight cssInteractProp guifg=#ffb0a3
-highlight cssKeyFrameProp guifg=#ffb0a3
-highlight cssLineboxProp guifg=#ffb0a3
-highlight cssListProp guifg=#ffb0a3
-highlight cssMarqueeProp guifg=#ffb0a3
-highlight cssMediaProp guifg=#ffb0a3
-highlight cssMobileTextProp guifg=#ffb0a3
-highlight cssMultiColumnProp guifg=#ffb0a3
-highlight cssObjectProp guifg=#ffb0a3
-highlight cssPageMarginProp guifg=#ffb0a3
-highlight cssPageProp guifg=#ffb0a3
-highlight cssPagedMediaProp guifg=#ffb0a3
-highlight cssPositioningProp guifg=#ffb0a3
-highlight cssPrintProp guifg=#ffb0a3
-highlight cssProp guifg=#ffb0a3
-highlight cssRenderProp guifg=#ffb0a3
-highlight cssRubyProp guifg=#ffb0a3
-highlight cssSpeechProp guifg=#ffb0a3
-highlight cssTableProp guifg=#ffb0a3
-highlight cssTextProp guifg=#ffb0a3
-highlight cssTransformProp guifg=#ffb0a3
-highlight cssTransitionProp guifg=#ffb0a3
-highlight cssUIProp guifg=#ffb0a3
+highlight cssAnimationProp guifg=#ffbbad
+highlight cssAuralProp guifg=#ffbbad
+highlight cssBackgroundProp guifg=#ffbbad
+highlight cssBorderProp guifg=#ffbbad
+highlight cssBoxProp guifg=#ffbbad
+highlight cssCascadeProp guifg=#ffbbad
+highlight cssColorProp guifg=#ffbbad
+highlight cssContentForPagedMediaProp guifg=#ffbbad
+highlight cssDimensionProp guifg=#ffbbad
+highlight cssFlexibleBoxProp guifg=#ffbbad
+highlight cssFontDescriptorProp guifg=#ffbbad
+highlight cssFontProp guifg=#ffbbad
+highlight cssGeneratedContentProp guifg=#ffbbad
+highlight cssGridProp guifg=#ffbbad
+highlight cssHyerlinkProp guifg=#ffbbad
+highlight cssIEUIProp guifg=#ffbbad
+highlight cssInteractProp guifg=#ffbbad
+highlight cssKeyFrameProp guifg=#ffbbad
+highlight cssLineboxProp guifg=#ffbbad
+highlight cssListProp guifg=#ffbbad
+highlight cssMarqueeProp guifg=#ffbbad
+highlight cssMediaProp guifg=#ffbbad
+highlight cssMobileTextProp guifg=#ffbbad
+highlight cssMultiColumnProp guifg=#ffbbad
+highlight cssObjectProp guifg=#ffbbad
+highlight cssPageMarginProp guifg=#ffbbad
+highlight cssPageProp guifg=#ffbbad
+highlight cssPagedMediaProp guifg=#ffbbad
+highlight cssPositioningProp guifg=#ffbbad
+highlight cssPrintProp guifg=#ffbbad
+highlight cssProp guifg=#ffbbad
+highlight cssRenderProp guifg=#ffbbad
+highlight cssRubyProp guifg=#ffbbad
+highlight cssSpeechProp guifg=#ffbbad
+highlight cssTableProp guifg=#ffbbad
+highlight cssTextProp guifg=#ffbbad
+highlight cssTransformProp guifg=#ffbbad
+highlight cssTransitionProp guifg=#ffbbad
+highlight cssUIProp guifg=#ffbbad
 
 
 " Dart
 
-highlight dartNumber guifg=#ffcd7c
-highlight dartRepeat guifg=#f49a66
+highlight dartNumber guifg=#ffcc75
+highlight dartRepeat guifg=#f29d68
 
 
 " Erlang
 
-highlight erlangAtom guifg=#f791bd
-highlight erlangAttribute guifg=#ffb0a3
-highlight erlangBracket guifg=#ffeadb
-highlight erlangGlobalFuncCall guifg=#ffb0a3
-highlight erlangLocalFuncCall guifg=#e88378
-highlight erlangModifier guifg=#f791bd
-highlight erlangPipe guifg=#ffeadb
-highlight erlangRightArrow guifg=#ae99e8
-highlight erlangVariable guifg=#ffeadb
+highlight erlangAtom guifg=#f29bc5
+highlight erlangAttribute guifg=#ffbbad
+highlight erlangBracket guifg=#ffede0
+highlight erlangGlobalFuncCall guifg=#ffbbad
+highlight erlangLocalFuncCall guifg=#e88a7f
+highlight erlangModifier guifg=#f29bc5
+highlight erlangPipe guifg=#ffede0
+highlight erlangRightArrow guifg=#b3a0e8
+highlight erlangVariable guifg=#ffede0
 
 
 " Fortran
 
-highlight fortranStorageClass guifg=#ffb0a3
-highlight fortranUnitHeader guifg=#f49a66
-highlight fortranUnitName guifg=#ffeadb
+highlight fortranStorageClass guifg=#ffbbad
+highlight fortranUnitHeader guifg=#f29d68
+highlight fortranUnitName guifg=#ffede0
 
 
 " Go
 
-highlight goBuiltins guifg=#e88378
-highlight goDeclType guifg=#ae99e8
+highlight goBuiltins guifg=#e88a7f
+highlight goDeclType guifg=#b3a0e8
 
 
 " Groovy
 
-highlight groovyClassDecl guifg=#f49a66
+highlight groovyClassDecl guifg=#f29d68
 highlight groovyCommentTitle guifg=#adadcc
-highlight groovyJDKBuiltin guifg=#f49a66
+highlight groovyJDKBuiltin guifg=#f29d68
 
 
 " Haskell
 
-highlight ConId guifg=#f791bd
-highlight hsConSym guifg=#ae99e8
-highlight hsImport guifg=#ffb0a3
-highlight hsImportModuleName guifg=#ffcca3
-highlight hsModule guifg=#ffb0a3
-highlight hsStructure guifg=#f49a66
-highlight hsVarSym guifg=#ffb0a3
+highlight ConId guifg=#f29bc5
+highlight hsConSym guifg=#b3a0e8
+highlight hsImport guifg=#ffbbad
+highlight hsImportModuleName guifg=#ffd4b2
+highlight hsModule guifg=#ffbbad
+highlight hsStructure guifg=#f29d68
+highlight hsVarSym guifg=#ffbbad
 
 
 " HTML
 
-highlight htmlArg guifg=#ffb0a3
+highlight htmlArg guifg=#ffbbad
 highlight link htmlEndTag htmltag
-highlight htmlH1 guifg=#ffeadb
-highlight htmlH2 guifg=#ffeadb
-highlight htmlH3 guifg=#ffeadb
-highlight htmlH4 guifg=#ffeadb
-highlight htmlH5 guifg=#ffeadb
-highlight htmlH6 guifg=#ffeadb
-highlight htmlSpecialChar guifg=#e88378
+highlight htmlH1 guifg=#ffede0
+highlight htmlH2 guifg=#ffede0
+highlight htmlH3 guifg=#ffede0
+highlight htmlH4 guifg=#ffede0
+highlight htmlH5 guifg=#ffede0
+highlight htmlH6 guifg=#ffede0
+highlight htmlSpecialChar guifg=#e88a7f
 highlight htmlTag guifg=#adadcc
-highlight htmlTitle guifg=#ffeadb
+highlight htmlTitle guifg=#ffede0
 
 
 " Java
 
-highlight javaClassDecl guifg=#f49a66
-highlight javaConceptKind guifg=#ae99e8
-highlight javaImportDeclBlock guifg=#ffcca3
-highlight javaLabel guifg=#ffb0a3
-highlight javaLabelRegion guifg=#ae99e8
-highlight javaOperator guifg=#ae99e8
-highlight javaScopeDecl guifg=#f49a66
-highlight javaStorageClass guifg=#ffb0a3
+highlight javaClassDecl guifg=#f29d68
+highlight javaConceptKind guifg=#b3a0e8
+highlight javaImportDeclBlock guifg=#ffd4b2
+highlight javaLabel guifg=#ffbbad
+highlight javaLabelRegion guifg=#b3a0e8
+highlight javaOperator guifg=#b3a0e8
+highlight javaScopeDecl guifg=#f29d68
+highlight javaStorageClass guifg=#ffbbad
 
 
 " JavaScript
 
-highlight javaScript guifg=#ffeadb
-highlight javaScriptBraces guifg=#adadcc
-highlight javaScriptMember guifg=#ffb0a3
-highlight javaScriptMessage guifg=#ffeadb
-highlight javaScriptOperator guifg=#ae99e8
-highlight javaScriptStatement guifg=#f49a66
-highlight javascriptParens guifg=#adadcc
+highlight javaScript guifg=#ffede0
+highlight javaScriptBraces guifg=#ffede0
+highlight javaScriptMember guifg=#ffbbad
+highlight javaScriptMessage guifg=#ffede0
+highlight javaScriptOperator guifg=#b3a0e8
+highlight javaScriptStatement guifg=#f29d68
 
 
 " Julia
 
-highlight juliaConstEnv guifg=#ae99e8
-highlight juliaFunctionCall guifg=#e88378
-highlight juliaFunctionName guifg=#ffeadb
-highlight juliaOperator guifg=#ffb0a3
-highlight juliaStringVarDelim guifg=#ae99e8
+highlight juliaConstEnv guifg=#b3a0e8
+highlight juliaFunctionCall guifg=#e88a7f
+highlight juliaFunctionName guifg=#ffede0
+highlight juliaOperator guifg=#ffbbad
+highlight juliaStringVarDelim guifg=#b3a0e8
 
 
 " JSON
@@ -372,13 +371,13 @@ highlight jsonKeywordMatch guifg=#adadcc
 
 " Kotlin
 
-highlight ktArrow guifg=#ae99e8
-highlight ktComplexInterpolationBrace guifg=#ae99e8
-highlight ktConditional guifg=#f49a66
-highlight ktModifier guifg=#ae99e8
+highlight ktArrow guifg=#b3a0e8
+highlight ktComplexInterpolationBrace guifg=#b3a0e8
+highlight ktConditional guifg=#f29d68
+highlight ktModifier guifg=#b3a0e8
 highlight ktOperator guifg=#adadcc
-highlight ktSimpleInterpolation guifg=#ae99e8
-highlight ktStructure guifg=#f49a66
+highlight ktSimpleInterpolation guifg=#b3a0e8
+highlight ktStructure guifg=#f29d68
 
 
 " Lua
@@ -391,149 +390,149 @@ highlight ktStructure guifg=#f49a66
 
 " Objective-C
 
-highlight objcEnumValue guifg=#ffb0a3
+highlight objcEnumValue guifg=#ffbbad
 highlight objcFastEnumKeyword guifg=#adadcc
 highlight objcHiddenArgument guifg=#adadcc
-highlight objcMethodCall guifg=#ffeadb
-highlight objcObjDef guifg=#ae99e8
-highlight objcProperty guifg=#ffb0a3
-highlight objcProtocol guifg=#ae99e8
+highlight objcMethodCall guifg=#ffede0
+highlight objcObjDef guifg=#b3a0e8
+highlight objcProperty guifg=#ffbbad
+highlight objcProtocol guifg=#b3a0e8
 
 
 " OCaml
 
 highlight ocamlAnyVar guifg=#adadcc
-highlight ocamlArrow guifg=#ae99e8
-highlight ocamlCons guifg=#ffb0a3
-highlight ocamlConstructor guifg=#f791bd
+highlight ocamlArrow guifg=#b3a0e8
+highlight ocamlCons guifg=#ffbbad
+highlight ocamlConstructor guifg=#f29bc5
 highlight ocamlEmptyConstructor guifg=#adadcc
 highlight ocamlEncl guifg=#adadcc
-highlight ocamlEqual guifg=#ffeadb
-highlight ocamlInfixOp guifg=#ae99e8
-highlight ocamlKeyChar guifg=#ffb0a3
-highlight ocamlModule guifg=#ffeadb
-highlight ocamlModPath guifg=#ae99e8
+highlight ocamlEqual guifg=#ffede0
+highlight ocamlInfixOp guifg=#b3a0e8
+highlight ocamlKeyChar guifg=#ffbbad
+highlight ocamlModule guifg=#ffede0
+highlight ocamlModPath guifg=#b3a0e8
 
 
 " Odin
 
-highlight odinMacro guifg=#ae99e8
+highlight odinMacro guifg=#b3a0e8
 highlight odinOperator guifg=#adadcc
-highlight odinProcedure guifg=#ffeadb
+highlight odinProcedure guifg=#ffede0
 
 
 " Pascal
 
-highlight pascalOperator guifg=#ae99e8
-highlight pascalPreProc guifg=#ae99e8
-highlight pascalPredefined guifg=#ffb0a3
+highlight pascalOperator guifg=#b3a0e8
+highlight pascalPreProc guifg=#b3a0e8
+highlight pascalPredefined guifg=#ffbbad
 
 
 " Perl
 
 highlight perlConditional guifg=#adadcc
-highlight perlMatchStartEnd guifg=#ae99e8
-highlight perlOperator guifg=#f49a66
+highlight perlMatchStartEnd guifg=#b3a0e8
+highlight perlOperator guifg=#f29d68
 highlight perlSharpBang guifg=#adadcc
-highlight perlStatementInclude guifg=#ffb0a3
-highlight perlStatementList guifg=#e88378
-highlight perlStatementRegexp guifg=#e88378
-highlight perlSubName guifg=#ffeadb
-highlight perlVarPlain guifg=#ffeadb
+highlight perlStatementInclude guifg=#ffbbad
+highlight perlStatementList guifg=#e88a7f
+highlight perlStatementRegexp guifg=#e88a7f
+highlight perlSubName guifg=#ffede0
+highlight perlVarPlain guifg=#ffede0
 
 
 " PHP
 
-highlight phpClasses guifg=#f791bd
-highlight phpComparison guifg=#f791bd
-highlight phpComparison guifg=#ffeadb
-highlight phpCoreConstant guifg=#f791bd
-highlight phpDefine guifg=#f49a66
-highlight phpDocTags guifg=#ae99e8
-highlight phpException guifg=#e88378
-highlight phpIdentifier guifg=#ffeadb
-highlight phpInterfaces guifg=#f791bd
-highlight phpLabel guifg=#ffb0a3
-highlight phpMemberSelector guifg=#ae99e8
-highlight phpOperator guifg=#ffeadb
-highlight phpParent guifg=#ffeadb
+highlight phpClasses guifg=#f29bc5
+highlight phpComparison guifg=#f29bc5
+highlight phpComparison guifg=#ffede0
+highlight phpCoreConstant guifg=#f29bc5
+highlight phpDefine guifg=#f29d68
+highlight phpDocTags guifg=#b3a0e8
+highlight phpException guifg=#e88a7f
+highlight phpIdentifier guifg=#ffede0
+highlight phpInterfaces guifg=#f29bc5
+highlight phpLabel guifg=#ffbbad
+highlight phpMemberSelector guifg=#b3a0e8
+highlight phpOperator guifg=#ffede0
+highlight phpParent guifg=#ffede0
 highlight phpRelation guifg=#adadcc
-highlight phpSpecialFunction guifg=#e88378
-highlight phpStorageClass guifg=#ffb0a3
-highlight phpStructure guifg=#f49a66
+highlight phpSpecialFunction guifg=#e88a7f
+highlight phpStorageClass guifg=#ffbbad
+highlight phpStructure guifg=#f29d68
 highlight phpVarSelector guifg=#adadcc
 
 
 " PowerShell
 
-highlight ps1BuiltIn guifg=#ae99e8
-highlight ps1Cmdlet guifg=#ffeadb
-highlight ps1Exception guifg=#e88378
-highlight ps1Function guifg=#ffeadb
-highlight ps1Label guifg=#ffb0a3
+highlight ps1BuiltIn guifg=#b3a0e8
+highlight ps1Cmdlet guifg=#ffede0
+highlight ps1Exception guifg=#e88a7f
+highlight ps1Function guifg=#ffede0
+highlight ps1Label guifg=#ffbbad
 highlight ps1Operator guifg=#adadcc
-highlight ps1Variable guifg=#ffb0a3
+highlight ps1Variable guifg=#ffbbad
 
 
 " Python
 
-highlight pythonAsync guifg=#ffb0a3
-highlight pythonAttribute guifg=#ffb0a3
-highlight pythonBuiltin guifg=#e88378
-highlight pythonClassVar guifg=#ae99e8
-highlight pythonDecorator guifg=#ae99e8
-highlight pythonDecoratorName guifg=#ae99e8
-highlight pythonFunction guifg=#ffeadb
+highlight pythonAsync guifg=#ffbbad
+highlight pythonAttribute guifg=#ffbbad
+highlight pythonBuiltin guifg=#e88a7f
+highlight pythonClassVar guifg=#b3a0e8
+highlight pythonDecorator guifg=#b3a0e8
+highlight pythonDecoratorName guifg=#b3a0e8
+highlight pythonFunction guifg=#ffede0
 highlight pythonOperator guifg=#adadcc
 
 
 " Ruby
 
-highlight rubyBlockParameterList guifg=#ffb0a3
-highlight rubyClass guifg=#f49a66
-highlight rubyClassName guifg=#ffeadb
-highlight rubyConstant guifg=#f791bd
-highlight rubyControl guifg=#f49a66
-highlight rubyDefine guifg=#f49a66
-highlight rubyInterpolationDelimiter guifg=#ffb0a3
-highlight rubyKeyword guifg=#ae99e8
-highlight rubyKeywordAsMethod guifg=#e88378
-highlight rubyMethodName guifg=#ffeadb
-highlight rubyPredefinedConstant guifg=#ae99e8
-highlight rubyStringDelimiter guifg=#ffcca3
-highlight rubySymbol guifg=#ffb0a3
+highlight rubyBlockParameterList guifg=#ffbbad
+highlight rubyClass guifg=#f29d68
+highlight rubyClassName guifg=#ffede0
+highlight rubyConstant guifg=#f29bc5
+highlight rubyControl guifg=#f29d68
+highlight rubyDefine guifg=#f29d68
+highlight rubyInterpolationDelimiter guifg=#ffbbad
+highlight rubyKeyword guifg=#b3a0e8
+highlight rubyKeywordAsMethod guifg=#e88a7f
+highlight rubyMethodName guifg=#ffede0
+highlight rubyPredefinedConstant guifg=#b3a0e8
+highlight rubyStringDelimiter guifg=#ffd4b2
+highlight rubySymbol guifg=#ffbbad
 
 
 " Rust
 
 highlight rustArrowCharacter guifg=#adadcc
-highlight rustAttribute guifg=#ae99e8
+highlight rustAttribute guifg=#b3a0e8
 highlight rustCommentLineDoc guifg=#adadcc
-highlight rustDerive guifg=#ae99e8
-highlight rustDynKeyword guifg=#ffb0a3
-highlight rustEnumVariant guifg=#ffb0a3
+highlight rustDerive guifg=#b3a0e8
+highlight rustDynKeyword guifg=#ffbbad
+highlight rustEnumVariant guifg=#ffbbad
 highlight rustFoldBraces guifg=#adadcc
-highlight rustFuncName guifg=#ffeadb
-highlight rustIdentifier guifg=#ffeadb
-highlight rustMacro guifg=#ae99e8
-highlight rustModPath guifg=#ffcca3
+highlight rustFuncName guifg=#ffede0
+highlight rustIdentifier guifg=#ffede0
+highlight rustMacro guifg=#b3a0e8
+highlight rustModPath guifg=#ffd4b2
 highlight rustModPathSep guifg=#adadcc
 highlight rustOperator guifg=#adadcc
-highlight rustSelf guifg=#ffb0a3
-highlight rustSigil guifg=#ffb0a3
-highlight rustStorage guifg=#ffb0a3
+highlight rustSelf guifg=#ffbbad
+highlight rustSigil guifg=#ffbbad
+highlight rustStorage guifg=#ffbbad
 
 
 " Scala
 
-highlight scalaAkkaSpecialWord guifg=#e88378
-highlight scalaAnnotation guifg=#ae99e8
-highlight scalaCapitalWord guifg=#ffb0a3
-highlight scalaCaseFollowing guifg=#ffeadb
-highlight scalaInstanceDeclaration guifg=#ffeadb
+highlight scalaAkkaSpecialWord guifg=#e88a7f
+highlight scalaAnnotation guifg=#b3a0e8
+highlight scalaCapitalWord guifg=#ffbbad
+highlight scalaCaseFollowing guifg=#ffede0
+highlight scalaInstanceDeclaration guifg=#ffede0
 highlight scalaKeywordModifier guifg=#adadcc
-highlight scalaNameDefinition guifg=#ffeadb
-highlight scalaOperator guifg=#ffeadb
+highlight scalaNameDefinition guifg=#ffede0
+highlight scalaOperator guifg=#ffede0
 highlight scalaSpecial guifg=#adadcc
 highlight scalaSquareBracketsBrackets guifg=#adadcc
 highlight scalaTypeOperator guifg=#adadcc
@@ -541,288 +540,288 @@ highlight scalaTypeOperator guifg=#adadcc
 
 " Shell
 
-highlight bashSpecialVariables guifg=#f791bd
-highlight shArithmetic guifg=#ffcd7c
-highlight shBracketExprDelim guifg=#ffb0a3
-highlight shCaseEsac guifg=#ffb0a3
-highlight shCaseLabel guifg=#ffb0a3
-highlight shCaseRange guifg=#ffcd7c
-highlight shCmdSubRegion guifg=#f791bd
-highlight shCommandSub guifg=#ffb0a3
-highlight shCurlyIn guifg=#ae99e8
-highlight shDblBrace guifg=#ffeadb
-highlight shDblParen guifg=#f791bd
-highlight shDeref guifg=#ffeadb
-highlight shDerefOffset guifg=#ffcd7c
-highlight shDerefSimple guifg=#ae99e8
-highlight shDerefSpecial guifg=#f791bd
-highlight shDerefVar guifg=#ffb0a3
-highlight shDerefVarArray guifg=#ae99e8
-highlight shDo guifg=#f49a66
-highlight shForPP guifg=#ffeadb
-highlight shFunctionExpr guifg=#ffeadb
-highlight shFunctionExprRegion guifg=#ffeadb
-highlight shFunctionOne guifg=#e88378
-highlight shFunctionTwo guifg=#ffeadb
-highlight shLoop guifg=#f49a66
-highlight shNoQuote guifg=#ae99e8
-highlight shOperator guifg=#ffeadb
-highlight shOption guifg=#f791bd
-highlight shQuote guifg=#ffcca3
-highlight shRange guifg=#f791bd
-highlight shRedir guifg=#ae99e8
-highlight shShellVariables guifg=#f791bd
-highlight shSnglCase guifg=#ffeadb
-highlight shStatement guifg=#e88378
-highlight shTestOpr guifg=#f791bd
-highlight shVar guifg=#ffcd7c
+highlight bashSpecialVariables guifg=#f29bc5
+highlight shArithmetic guifg=#ffcc75
+highlight shBracketExprDelim guifg=#ffbbad
+highlight shCaseEsac guifg=#ffbbad
+highlight shCaseLabel guifg=#ffbbad
+highlight shCaseRange guifg=#ffcc75
+highlight shCmdSubRegion guifg=#f29bc5
+highlight shCommandSub guifg=#ffbbad
+highlight shCurlyIn guifg=#b3a0e8
+highlight shDblBrace guifg=#ffede0
+highlight shDblParen guifg=#f29bc5
+highlight shDeref guifg=#ffede0
+highlight shDerefOffset guifg=#ffcc75
+highlight shDerefSimple guifg=#b3a0e8
+highlight shDerefSpecial guifg=#f29bc5
+highlight shDerefVar guifg=#ffbbad
+highlight shDerefVarArray guifg=#b3a0e8
+highlight shDo guifg=#f29d68
+highlight shForPP guifg=#ffede0
+highlight shFunctionExpr guifg=#ffede0
+highlight shFunctionExprRegion guifg=#ffede0
+highlight shFunctionOne guifg=#e88a7f
+highlight shFunctionTwo guifg=#ffede0
+highlight shLoop guifg=#f29d68
+highlight shNoQuote guifg=#b3a0e8
+highlight shOperator guifg=#ffede0
+highlight shOption guifg=#f29bc5
+highlight shQuote guifg=#ffd4b2
+highlight shRange guifg=#f29bc5
+highlight shRedir guifg=#b3a0e8
+highlight shShellVariables guifg=#f29bc5
+highlight shSnglCase guifg=#ffede0
+highlight shStatement guifg=#e88a7f
+highlight shTestOpr guifg=#f29bc5
+highlight shVar guifg=#ffcc75
 highlight shVarAssign guifg=#adadcc
-highlight shVariable guifg=#ffeadb
+highlight shVariable guifg=#ffede0
 highlight shWrapLineOperator guifg=#adadcc
 
 
 " Solidity
 
-highlight solContract guifg=#f49a66
-highlight solContractName guifg=#ffeadb
+highlight solContract guifg=#f29d68
+highlight solContractName guifg=#ffede0
 highlight solOperator guifg=#adadcc
 
 
 " SQL
 
-highlight sqlKeyword guifg=#f49a66
-highlight sqlOperator guifg=#ae99e8
-highlight sqlStatement guifg=#e88378
+highlight sqlKeyword guifg=#f29d68
+highlight sqlOperator guifg=#b3a0e8
+highlight sqlStatement guifg=#e88a7f
 
 
 " Swift
 
-highlight swiftAttribute guifg=#ae99e8
-highlight swiftDefinitionModifier guifg=#ae99e8
-highlight swiftFuncDefinition guifg=#f49a66
-highlight swiftImplicitVarName guifg=#ae99e8
-highlight swiftImportModule guifg=#ffcca3
-highlight swiftOperator guifg=#ffeadb
-highlight swiftTypeDeclaration guifg=#ae99e8
-highlight swiftTypeDefinition guifg=#f49a66
-highlight swiftTypeName guifg=#ffeadb
-highlight swiftVarDefinition guifg=#f49a66
-highlight swiftVarName guifg=#ffeadb
+highlight swiftAttribute guifg=#b3a0e8
+highlight swiftDefinitionModifier guifg=#b3a0e8
+highlight swiftFuncDefinition guifg=#f29d68
+highlight swiftImplicitVarName guifg=#b3a0e8
+highlight swiftImportModule guifg=#ffd4b2
+highlight swiftOperator guifg=#ffede0
+highlight swiftTypeDeclaration guifg=#b3a0e8
+highlight swiftTypeDefinition guifg=#f29d68
+highlight swiftTypeName guifg=#ffede0
+highlight swiftVarDefinition guifg=#f29d68
+highlight swiftVarName guifg=#ffede0
 
 
 " TSX
 
-highlight tsxAttrib guifg=#ffb0a3
+highlight tsxAttrib guifg=#ffbbad
 highlight link tsxCloseString htmlTag
 
 
 " TypeScript
 
-highlight typescriptAliasDeclaration guifg=#ffeadb
-highlight typescriptArrowFunc guifg=#ae99e8
+highlight typescriptAliasDeclaration guifg=#ffede0
+highlight typescriptArrowFunc guifg=#b3a0e8
 highlight typescriptAssign guifg=#adadcc
-highlight typescriptAsyncFuncKeyword guifg=#ae99e8
+highlight typescriptAsyncFuncKeyword guifg=#b3a0e8
 highlight typescriptBinaryOp guifg=#adadcc
 highlight typescriptBraces guifg=#adadcc
-highlight typescriptCall guifg=#ffeadb
-highlight typescriptCastKeyword guifg=#ae99e8
-highlight typescriptClassExtends guifg=#ae99e8
-highlight typescriptClassName guifg=#ffeadb
-highlight typescriptConditionalType guifg=#ae99e8
-highlight typescriptConstraint guifg=#ae99e8
+highlight typescriptCall guifg=#ffede0
+highlight typescriptCastKeyword guifg=#b3a0e8
+highlight typescriptClassExtends guifg=#b3a0e8
+highlight typescriptClassName guifg=#ffede0
+highlight typescriptConditionalType guifg=#b3a0e8
+highlight typescriptConstraint guifg=#b3a0e8
 highlight typescriptDestructureComma guifg=#adadcc
-highlight typescriptDocNotation guifg=#ffb0a3
-highlight typescriptDocTags guifg=#ffb0a3
+highlight typescriptDocNotation guifg=#ffbbad
+highlight typescriptDocTags guifg=#ffbbad
 highlight typescriptDotNotation guifg=#adadcc
 highlight typescriptEndColons guifg=#adadcc
-highlight typescriptExceptions guifg=#f49a66
-highlight typescriptFuncCallArg guifg=#ffeadb
-highlight typescriptFuncName guifg=#ffeadb
-highlight typescriptFuncType guifg=#ffeadb
-highlight typescriptFuncTypeArrow guifg=#ae99e8
-highlight typescriptGlobal guifg=#f791bd
+highlight typescriptExceptions guifg=#f29d68
+highlight typescriptFuncCallArg guifg=#ffede0
+highlight typescriptFuncName guifg=#ffede0
+highlight typescriptFuncType guifg=#ffede0
+highlight typescriptFuncTypeArrow guifg=#b3a0e8
+highlight typescriptGlobal guifg=#f29bc5
 highlight typescriptGlobalConsoleDot guifg=#adadcc
 highlight typescriptGlobalConsoleDot guifg=#adadcc
 highlight typescriptGlobalObjectDot guifg=#adadcc
-highlight typescriptIdentifier guifg=#f791bd
-highlight typescriptIdentifierName guifg=#ffb0a3
-highlight typescriptInterfaceExtends guifg=#ae99e8
-highlight typescriptInterfaceName guifg=#ffeadb
-highlight typescriptKeywordOp guifg=#ae99e8
-highlight typescriptMember guifg=#ffb0a3
-highlight typescriptMemberOptionality guifg=#ae99e8
+highlight typescriptIdentifier guifg=#f29bc5
+highlight typescriptIdentifierName guifg=#ffbbad
+highlight typescriptInterfaceExtends guifg=#b3a0e8
+highlight typescriptInterfaceName guifg=#ffede0
+highlight typescriptKeywordOp guifg=#b3a0e8
+highlight typescriptMember guifg=#ffbbad
+highlight typescriptMemberOptionality guifg=#b3a0e8
 highlight typescriptMixinComma guifg=#adadcc
 highlight typescriptObjectColon guifg=#adadcc
-highlight typescriptObjectSpread guifg=#ae99e8
-highlight typescriptOperator guifg=#ae99e8
+highlight typescriptObjectSpread guifg=#b3a0e8
+highlight typescriptOperator guifg=#b3a0e8
 highlight typescriptParens guifg=#adadcc
 highlight typescriptProperty guifg=#adadcc
 highlight typescriptReadonlyModifier guifg=#adadcc
-highlight typescriptRegexpString guifg=#ae99e8
+highlight typescriptRegexpString guifg=#b3a0e8
 highlight typescriptRestOrSpread guifg=#adadcc
-highlight typescriptStringProperty guifg=#ffcca3
-highlight typescriptTemplateSB guifg=#ae99e8
-highlight typescriptTernary guifg=#ffeadb
-highlight typescriptTernaryOp guifg=#ae99e8
+highlight typescriptStringProperty guifg=#ffd4b2
+highlight typescriptTemplateSB guifg=#b3a0e8
+highlight typescriptTernary guifg=#ffede0
+highlight typescriptTernaryOp guifg=#b3a0e8
 highlight typescriptTypeAnnotation guifg=#adadcc
 highlight typescriptTypeBracket guifg=#adadcc
 highlight typescriptTypeBrackets guifg=#adadcc
-highlight typescriptTypeReference guifg=#f791bd
+highlight typescriptTypeReference guifg=#f29bc5
 highlight typescriptUnaryOp guifg=#adadcc
 
 " TypeScript regexp
 
-highlight typescriptGlobalRegExpDot guifg=#ae99e8
-highlight typescriptRegExpMethod guifg=#e88378
-highlight typescriptRegExpProp guifg=#ffb0a3
-highlight typescriptRegExpStaticProp guifg=#f791bd
-highlight typescriptRegexpBackRef guifg=#e88378
-highlight typescriptRegexpBoundary guifg=#ffb0a3
-highlight typescriptRegexpCharClass guifg=#ae99e8
-highlight typescriptRegexpGroup guifg=#f791bd
-highlight typescriptRegexpMod guifg=#ffcd7c
-highlight typescriptRegexpOr guifg=#ae99e8
-highlight typescriptRegexpQuantifier guifg=#ffcd7c
-highlight typescriptRegexpString guifg=#ffcca3
+highlight typescriptGlobalRegExpDot guifg=#b3a0e8
+highlight typescriptRegExpMethod guifg=#e88a7f
+highlight typescriptRegExpProp guifg=#ffbbad
+highlight typescriptRegExpStaticProp guifg=#f29bc5
+highlight typescriptRegexpBackRef guifg=#e88a7f
+highlight typescriptRegexpBoundary guifg=#ffbbad
+highlight typescriptRegexpCharClass guifg=#b3a0e8
+highlight typescriptRegexpGroup guifg=#f29bc5
+highlight typescriptRegexpMod guifg=#ffcc75
+highlight typescriptRegexpOr guifg=#b3a0e8
+highlight typescriptRegexpQuantifier guifg=#ffcc75
+highlight typescriptRegexpString guifg=#ffd4b2
 
 " TypeScript globals
 
-highlight typescriptCryptoGlobal guifg=#ae99e8
-highlight typescriptEncodingGlobal guifg=#ae99e8
-highlight typescriptGlobalMethod guifg=#ae99e8
-highlight typescriptNodeGlobal guifg=#ae99e8
-highlight typescriptTestGlobal guifg=#e88378
-highlight typescriptXHRGlobal guifg=#ae99e8
+highlight typescriptCryptoGlobal guifg=#b3a0e8
+highlight typescriptEncodingGlobal guifg=#b3a0e8
+highlight typescriptGlobalMethod guifg=#b3a0e8
+highlight typescriptNodeGlobal guifg=#b3a0e8
+highlight typescriptTestGlobal guifg=#e88a7f
+highlight typescriptXHRGlobal guifg=#b3a0e8
 
 " TypeScript props
 
-highlight typescriptBOMHistoryProp guifg=#ffb0a3
-highlight typescriptBOMLocationProp guifg=#ffb0a3
-highlight typescriptBOMNavigatorProp guifg=#ffb0a3
-highlight typescriptBOMNetworkProp guifg=#ffb0a3
-highlight typescriptBOMWindowProp guifg=#ffb0a3
-highlight typescriptComputedPropertyName guifg=#ffb0a3
-highlight typescriptCryptoProp guifg=#ffb0a3
-highlight typescriptDOMDocProp guifg=#ffb0a3
-highlight typescriptDOMEventProp guifg=#ffb0a3
-highlight typescriptDOMFormProp guifg=#ffb0a3
-highlight typescriptDOMNodeProp guifg=#ffb0a3
-highlight typescriptDOMStorageProp guifg=#ffb0a3
-highlight typescriptES6MapProp guifg=#ffb0a3
-highlight typescriptES6SetProp guifg=#ffb0a3
-highlight typescriptEncodingProp guifg=#ffb0a3
-highlight typescriptFileReaderProp guifg=#ffb0a3
-highlight typescriptMathStaticProp guifg=#ffb0a3
-highlight typescriptNumberStaticProp guifg=#ffb0a3
-highlight typescriptPaymentAddressProp guifg=#ffb0a3
-highlight typescriptPaymentProp guifg=#ffb0a3
-highlight typescriptPaymentResponseProp guifg=#ffb0a3
-highlight typescriptPaymentShippingOptionProp guifg=#ffb0a3
-highlight typescriptProp guifg=#ffb0a3
-highlight typescriptPropertyMemberDeclaration guifg=#ffb0a3
-highlight typescriptPropertyName guifg=#ffb0a3
-highlight typescriptRegExpProp guifg=#ffb0a3
-highlight typescriptRegExpStaticProp guifg=#ffb0a3
-highlight typescriptRequestProp guifg=#ffb0a3
-highlight typescriptResponseProp guifg=#ffb0a3
-highlight typescriptServiceWorkerProp guifg=#ffb0a3
-highlight typescriptSymbolStaticProp guifg=#ffb0a3
-highlight typescriptURLUtilsProp guifg=#ffb0a3
-highlight typescriptXHRProp guifg=#ffb0a3
+highlight typescriptBOMHistoryProp guifg=#ffbbad
+highlight typescriptBOMLocationProp guifg=#ffbbad
+highlight typescriptBOMNavigatorProp guifg=#ffbbad
+highlight typescriptBOMNetworkProp guifg=#ffbbad
+highlight typescriptBOMWindowProp guifg=#ffbbad
+highlight typescriptComputedPropertyName guifg=#ffbbad
+highlight typescriptCryptoProp guifg=#ffbbad
+highlight typescriptDOMDocProp guifg=#ffbbad
+highlight typescriptDOMEventProp guifg=#ffbbad
+highlight typescriptDOMFormProp guifg=#ffbbad
+highlight typescriptDOMNodeProp guifg=#ffbbad
+highlight typescriptDOMStorageProp guifg=#ffbbad
+highlight typescriptES6MapProp guifg=#ffbbad
+highlight typescriptES6SetProp guifg=#ffbbad
+highlight typescriptEncodingProp guifg=#ffbbad
+highlight typescriptFileReaderProp guifg=#ffbbad
+highlight typescriptMathStaticProp guifg=#ffbbad
+highlight typescriptNumberStaticProp guifg=#ffbbad
+highlight typescriptPaymentAddressProp guifg=#ffbbad
+highlight typescriptPaymentProp guifg=#ffbbad
+highlight typescriptPaymentResponseProp guifg=#ffbbad
+highlight typescriptPaymentShippingOptionProp guifg=#ffbbad
+highlight typescriptProp guifg=#ffbbad
+highlight typescriptPropertyMemberDeclaration guifg=#ffbbad
+highlight typescriptPropertyName guifg=#ffbbad
+highlight typescriptRegExpProp guifg=#ffbbad
+highlight typescriptRegExpStaticProp guifg=#ffbbad
+highlight typescriptRequestProp guifg=#ffbbad
+highlight typescriptResponseProp guifg=#ffbbad
+highlight typescriptServiceWorkerProp guifg=#ffbbad
+highlight typescriptSymbolStaticProp guifg=#ffbbad
+highlight typescriptURLUtilsProp guifg=#ffbbad
+highlight typescriptXHRProp guifg=#ffbbad
 
 " TypeScript methods
 
-highlight typescriptArrayMethod guifg=#e88378
-highlight typescriptArrayStaticMethod guifg=#e88378
-highlight typescriptBOMHistoryMethod guifg=#e88378
-highlight typescriptBOMLocationMethod guifg=#e88378
-highlight typescriptBOMNavigatorMethod guifg=#e88378
-highlight typescriptBOMWindowMethod guifg=#e88378
-highlight typescriptBlobMethod guifg=#e88378
-highlight typescriptCacheMethod guifg=#e88378
-highlight typescriptConsoleMethod guifg=#e88378
-highlight typescriptCryptoMethod guifg=#e88378
-highlight typescriptDOMDocMethod guifg=#e88378
-highlight typescriptDOMEventMethod guifg=#e88378
-highlight typescriptDOMEventTargetMethod guifg=#e88378
-highlight typescriptDOMFormMethod guifg=#e88378
-highlight typescriptDOMNodeMethod guifg=#e88378
-highlight typescriptDOMStorageMethod guifg=#e88378
-highlight typescriptDateMethod guifg=#e88378
-highlight typescriptDateStaticMethod guifg=#e88378
-highlight typescriptES6MapMethod guifg=#e88378
-highlight typescriptES6SetMethod guifg=#e88378
-highlight typescriptEncodingMethod guifg=#e88378
-highlight typescriptFileListMethod guifg=#e88378
-highlight typescriptFileMethod guifg=#e88378
-highlight typescriptFileReaderMethod guifg=#e88378
-highlight typescriptFunctionMethod guifg=#e88378
-highlight typescriptGeolocationMethod guifg=#e88378
-highlight typescriptGlobalMethod guifg=#e88378
-highlight typescriptHeadersMethod guifg=#e88378
-highlight typescriptIntlMethod guifg=#e88378
-highlight typescriptJSONStaticMethod guifg=#e88378
-highlight typescriptMathStaticMethod guifg=#e88378
-highlight typescriptMethod guifg=#e88378
-highlight typescriptNumberMethod guifg=#e88378
-highlight typescriptNumberStaticMethod guifg=#e88378
-highlight typescriptObjectMethod guifg=#e88378
-highlight typescriptObjectStaticMethod guifg=#e88378
-highlight typescriptPaymentMethod guifg=#e88378
-highlight typescriptPaymentResponseMethod guifg=#e88378
-highlight typescriptPromiseMethod guifg=#e88378
-highlight typescriptPromiseStaticMethod guifg=#e88378
-highlight typescriptReflectMethod guifg=#e88378
-highlight typescriptRegExpMethod guifg=#e88378
-highlight typescriptRequestMethod guifg=#e88378
-highlight typescriptResponseMethod guifg=#e88378
-highlight typescriptServiceWorkerMethod guifg=#e88378
-highlight typescriptStringMethod guifg=#e88378
-highlight typescriptStringStaticMethod guifg=#e88378
-highlight typescriptSubtleCryptoMethod guifg=#e88378
-highlight typescriptSymbolStaticMethod guifg=#e88378
-highlight typescriptURLStaticMethod guifg=#e88378
-highlight typescriptXHRMethod guifg=#e88378
-highlight typescriptXHRMethod guifg=#e88378
+highlight typescriptArrayMethod guifg=#e88a7f
+highlight typescriptArrayStaticMethod guifg=#e88a7f
+highlight typescriptBOMHistoryMethod guifg=#e88a7f
+highlight typescriptBOMLocationMethod guifg=#e88a7f
+highlight typescriptBOMNavigatorMethod guifg=#e88a7f
+highlight typescriptBOMWindowMethod guifg=#e88a7f
+highlight typescriptBlobMethod guifg=#e88a7f
+highlight typescriptCacheMethod guifg=#e88a7f
+highlight typescriptConsoleMethod guifg=#e88a7f
+highlight typescriptCryptoMethod guifg=#e88a7f
+highlight typescriptDOMDocMethod guifg=#e88a7f
+highlight typescriptDOMEventMethod guifg=#e88a7f
+highlight typescriptDOMEventTargetMethod guifg=#e88a7f
+highlight typescriptDOMFormMethod guifg=#e88a7f
+highlight typescriptDOMNodeMethod guifg=#e88a7f
+highlight typescriptDOMStorageMethod guifg=#e88a7f
+highlight typescriptDateMethod guifg=#e88a7f
+highlight typescriptDateStaticMethod guifg=#e88a7f
+highlight typescriptES6MapMethod guifg=#e88a7f
+highlight typescriptES6SetMethod guifg=#e88a7f
+highlight typescriptEncodingMethod guifg=#e88a7f
+highlight typescriptFileListMethod guifg=#e88a7f
+highlight typescriptFileMethod guifg=#e88a7f
+highlight typescriptFileReaderMethod guifg=#e88a7f
+highlight typescriptFunctionMethod guifg=#e88a7f
+highlight typescriptGeolocationMethod guifg=#e88a7f
+highlight typescriptGlobalMethod guifg=#e88a7f
+highlight typescriptHeadersMethod guifg=#e88a7f
+highlight typescriptIntlMethod guifg=#e88a7f
+highlight typescriptJSONStaticMethod guifg=#e88a7f
+highlight typescriptMathStaticMethod guifg=#e88a7f
+highlight typescriptMethod guifg=#e88a7f
+highlight typescriptNumberMethod guifg=#e88a7f
+highlight typescriptNumberStaticMethod guifg=#e88a7f
+highlight typescriptObjectMethod guifg=#e88a7f
+highlight typescriptObjectStaticMethod guifg=#e88a7f
+highlight typescriptPaymentMethod guifg=#e88a7f
+highlight typescriptPaymentResponseMethod guifg=#e88a7f
+highlight typescriptPromiseMethod guifg=#e88a7f
+highlight typescriptPromiseStaticMethod guifg=#e88a7f
+highlight typescriptReflectMethod guifg=#e88a7f
+highlight typescriptRegExpMethod guifg=#e88a7f
+highlight typescriptRequestMethod guifg=#e88a7f
+highlight typescriptResponseMethod guifg=#e88a7f
+highlight typescriptServiceWorkerMethod guifg=#e88a7f
+highlight typescriptStringMethod guifg=#e88a7f
+highlight typescriptStringStaticMethod guifg=#e88a7f
+highlight typescriptSubtleCryptoMethod guifg=#e88a7f
+highlight typescriptSymbolStaticMethod guifg=#e88a7f
+highlight typescriptURLStaticMethod guifg=#e88a7f
+highlight typescriptXHRMethod guifg=#e88a7f
+highlight typescriptXHRMethod guifg=#e88a7f
 
 " TypeScript labels
 
-highlight typescriptDestructureLabel guifg=#ffb0a3
-highlight typescriptLabel guifg=#ffb0a3
-highlight typescriptObjectLabel guifg=#ffb0a3
+highlight typescriptDestructureLabel guifg=#ffbbad
+highlight typescriptLabel guifg=#ffbbad
+highlight typescriptObjectLabel guifg=#ffbbad
 
 
 " Vim script
 
 highlight vimFunctionBang guifg=#adadcc
-highlight vimSpecfile guifg=#ffeadb
-highlight vimUserFunc guifg=#e88378
-highlight vimHLGroup guifg=#ae99e8
+highlight vimSpecfile guifg=#ffede0
+highlight vimUserFunc guifg=#e88a7f
+highlight vimHLGroup guifg=#b3a0e8
 highlight link vimGroup vimHLGroup
 
 
 " XML
 
 highlight xmlTag guifg=#adadcc
-highlight xmlTagName guifg=#ae99e8
+highlight xmlTagName guifg=#b3a0e8
 
 
 " YAML
 
 highlight yamlBlockMappingDelimiter guifg=#adadcc
-highlight yamlBlockMappingKey guifg=#f49a66
+highlight yamlBlockMappingKey guifg=#f29d68
 
 
 " Zig
 
-highlight zigBuiltinFn guifg=#e88378
-highlight zigComparatorWord guifg=#f49a66
-highlight zigExecution guifg=#f49a66
-highlight zigKeyword guifg=#f49a66
-highlight zigMacro guifg=#ae99e8
-highlight zigMultilineStringDelimiter guifg=#ae99e8
-highlight zigVarDecl guifg=#f49a66
-highlight zigVarDecl guifg=#f49a66
+highlight zigBuiltinFn guifg=#e88a7f
+highlight zigComparatorWord guifg=#f29d68
+highlight zigExecution guifg=#f29d68
+highlight zigKeyword guifg=#f29d68
+highlight zigMacro guifg=#b3a0e8
+highlight zigMultilineStringDelimiter guifg=#b3a0e8
+highlight zigVarDecl guifg=#f29d68
+highlight zigVarDecl guifg=#f29d68
 
 
 " Semantic LSP
