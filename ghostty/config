@@ -10,6 +10,7 @@ font-style-bold-italic = Bold Italic
 font-style-italic = Medium Italic
 macos-option-as-alt = true
 mouse-hide-while-typing = true
+shell-integration-features = no-cursor
 theme = alba
 window-decoration = false
 window-padding-x = 20
